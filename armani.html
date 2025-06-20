@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Armani - Moda Elegante</title>
+  <style>
+    body {
+      margin: 0;
+      background-image: url('logoA.jpg');
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 80vh;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    article {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      transition: all 0.2s ease-in-out;
+    }
+article:hover{
+  transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  
+}
+    article img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Collezione Armani</h1>
+    <a href="index.html">Torna alla Home</a>
+  </header>
+
+  <main class="catalogo">
+    <article>
+      <img src="bagA.jpg" alt="Borsa Armani" />
+      <h3>Borsa Armani</h3>
+      <p>€199.99</p>
+    </article>
+    <article>
+      <img src="jeansA.jpg" alt="Jeans Armani" />
+      <h3>Jeans Armani</h3>
+      <p>€129.99</p>
+    </article>
+    <article>
+      <img src="camA.jpg" alt="Camicia Armani" />
+      <h3>Camicia Armani</h3>
+      <p>€99.99</p>
+    </article>
+    <article>
+      <img src="img/vestito4.jpg" alt="Scarpe Armani" />
+      <h3>Scarpe Armani</h3>
+      <p>€149.99</p>
+    </article>
+  </main>
+</body>
+</html>
