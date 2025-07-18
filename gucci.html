@@ -1,17 +1,96 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Gucci - HypeLine</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Gucci - Moda Elegante</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('logoG.jpg');
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 80vh;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        article {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            transition: all 0.2s ease-in-out;
+        }
+
+        article:hover {
+            transform: scale(1.1);
+        }
+
+        article img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header><h1>Collezione Gucci</h1><a href="index.html">Torna alla Home</a></header>
-  <main class="catalogo">
-    <article><img src="img/vestito5.jpg"><h3>Giacca Gucci</h3><p>€259.99</p></article>
-    <article><img src="img/vestito6.jpg"><h3>Scarpe Gucci</h3><p>€179.99</p></article>
-    <article><img src="img/vestito7.jpg"><h3>Occhiali Gucci</h3><p>€89.99</p></article>
-    <article><img src="img/vestito8.jpg"><h3>Borsa Gucci</h3><p>€199.99</p></article>
-  </main>
+    <header>
+        <h1>Collezione Gucci</h1>
+        <a href="index.html">Torna alla Home</a>
+    </header>
+
+    <main class="catalogo">
+        <a href="https://www.gucci.com/it/it/ca/women/handbags-c-women-handbags" target="_blank">
+            <article>
+                <img src="BagG.jpg" alt="Borsa Gucci" />
+                <h3>Borsa Gucci</h3>
+                <p>€199.99</p>
+            </article>
+        </a>
+
+        <a href="https://www.gucci.com/it/it/ca/men/ready-to-wear-for-men/pants-shorts-for-men-c-men-readytowear-trousers-and-shorts" target="_blank">
+            <article>
+                <img src="jeansG.jpg" alt="Pantaloni Gucci" />
+                <h3>Pantaloni Gucci</h3>
+                <p>€129.99</p>
+            </article>
+        </a>
+
+        <a href="https://www.gucci.com/it/it/ca/men/ready-to-wear-for-men/shirts-for-men-c-men-readytowear-shirts" target="_blank">
+            <article>
+                <img src="camG.jpg" alt="Camicia Gucci" />
+                <h3>Camicia Gucci</h3>
+                <p>€99.99</p>
+            </article>
+        </a>
+
+        <a href="https://www.gucci.com/it/it/ca/women/shoes-for-women-c-women-shoes" target="_blank">
+            <article>
+                <img src="scarG.jpg" alt="Scarpe Gucci" />
+                <h3>Scarpe Gucci</h3>
+                <p>€149.99</p>
+            </article>
+        </a>
+    </main>
 </body>
 </html>

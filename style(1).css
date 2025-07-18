@@ -1,90 +1,101 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  color: #fff;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-/* HOME page */
-body.home {
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
-}
+    /* HOME page */
+    body.home {
+        background: linear-gradient(135deg, #1f1c2c, #928dab);
+    }
 
-/* PAGINE MARCHE */
-body.armani {
-  background-image: url("img/bg-armani.jpg");
-}
-body.gucci {
-  background-image: url("img/bg-gucci.jpg");
-}
-body.prada {
-  background-image: url("img/bg-prada.jpg");
-}
+    /* PAGINE MARCHE */
+    body.armani {
+        background-image: url("img/bg-armani.jpg");
+    }
 
-/* CONTATTI */
-body.contatti {
-  background: #333;
-}
+    body.gucci {
+        background-image: url("img/bg-gucci.jpg");
+    }
+
+    body.prada {
+        background-image: url("img/bg-prada.jpg");
+    }
+
+    /* CONTATTI */
+    body.contatti {
+        background: #333;
+    }
 
 header {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 1rem;
-  text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    text-align: center;
 }
-header a, nav a {
-  color: #fff;
-  text-decoration: none;
-}
+
+    header a, nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
 }
+
 .catalogo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
 }
-.catalogo article {
-  width: 40%;
-  margin: 1rem;
-  text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.9);
-  color: #000;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  padding: 1rem;
-}
-.catalogo img {
-  max-width: 100%;
-  border-radius: 6px;
-}
+
+    .catalogo article {
+        width: 40%;
+        margin: 1rem;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.9);
+        color: #000;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        padding: 1rem;
+    }
+
+    .catalogo img {
+        max-width: 100%;
+        border-radius: 6px;
+    }
+
 .contact form {
-  max-width: 600px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
+
 .contact input, .contact textarea {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
 }
+
 button {
-  background-color: #000;
-  color: white;
-  border: none;
-  padding: 0.75rem;
-  cursor: pointer;
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
 }
+
 footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1rem;
 }
