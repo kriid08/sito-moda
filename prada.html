@@ -1,17 +1,94 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Prada - HypeLine</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Prada - HypeLine</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('logoP.jpg');
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 80vh;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        article {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            transition: all 0.2s ease-in-out;
+        }
+
+            article:hover {
+                transform: scale(1.1);
+                transition: all 0.2s ease-in-out;
+            }
+
+            article img {
+                max-width: 100%;
+                border-radius: 8px;
+            }
+
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header><h1>Collezione Prada</h1><a href="index.html">Torna alla Home</a></header>
-  <main class="catalogo">
-    <article><img src="img/vestito9.jpg"><h3>Cappotto Prada</h3><p>€299.99</p></article>
-    <article><img src="img/vestito10.jpg"><h3>Zaino Prada</h3><p>€149.99</p></article>
-    <article><img src="img/vestito11.jpg"><h3>Maglione Prada</h3><p>€119.99</p></article>
-    <article><img src="img/vestito12.jpg"><h3>Portafoglio Prada</h3><p>€69.99</p></article>
-  </main>
+    <header>
+        <h1>Collezione Armani</h1>
+        <a href="index.html">Torna alla Home</a>
+    </header>
+
+    <main class="catalogo">
+        <a href="https://www.armani.com/it-it/emporio-armani/donna/borse/" target="_blank">
+            <article>
+                <img src="bagP.jpg" alt="Borsa Prada" />
+                <h3>Borsa Armani</h3>
+                <p>€199.99</p>
+            </article>
+        </a>
+        <a href="https://www.armani.com/it-it/emporio-armani/uomo/abbigliamento/jeans/" target="_blank">
+            <article>
+                <img src="jeansP.jpg" alt="Jeans Prada" />
+                <h3>Jeans Armani</h3>
+                <p>€129.99</p>
+            </article>
+        </a>
+        <a href="https://www.armani.com/it-it/emporio-armani/uomo/abbigliamento/camicie/" target="_blank">
+            <article>
+                <img src="camP.jpg" alt="Camicia Prada" />
+                <h3>Camicia Armani</h3>
+                <p>€99.99</p>
+            </article>
+        </a>
+        <a href="https://www.armani.com/it-it/emporio-armani/uomo/scarpe/" target="_blank">
+            <article>
+                <img src="ScarP.jpg" alt="Scarpe Prada" />
+                <h3>Scarpe Armani</h3>
+                <p>€149.99</p>
+            </article>
+        </a>
+    </main>
 </body>
 </html>
